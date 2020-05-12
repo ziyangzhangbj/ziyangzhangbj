@@ -95,4 +95,5 @@ def main():
       filteringOut_by_Visibility(illegal_file,visibility_threshold)
       group_illegalPOs_by_ValidOrigin_ASN("results/filtered_{}".format(os.path.basename(illegal_file)),date)
       group_illegalPOs_by_InvalidOrigin_ASN("results/filtered_{}".format(os.path.basename(illegal_file)),date)
-      
+        
+ main()    
